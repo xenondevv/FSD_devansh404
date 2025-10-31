@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body
+{
+margin:0;
+font-family: Arial, Helvetica, sans-serif, sans-serif;
+min-height:100vh;
+display:flex;
+background-color: rgb(197, 158, 233);
+flex-direction:column;
+}
+
+header {
+background-color: #06145b33;
+padding: 20px;
+color:white;
+font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: rgb(8, 8, 36);
+
+}
+ ul {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+
+header p{
+    margin:5px 0 0 0;
+    font-size:16px;
+}
+main{
+    flex:1;
+    padding:30px;
+    height:100px;
+}
+footer{
+    background-color: rgb(8, 8, 36);
+    color:white;
+    padding:10px 0;
+}
+.main-content{
+    font-size:25px;
+    font-weight:400px;
+    margin-bottom:5px;
+    
+    transition: all 0.3s ease;
+}
+.social-icons{
+    margin-top:10px;
+    text-align: center;
+    
+}
+.main-title:hover{
+    font-size:30px;
+    color:yellow;
+    font-weight:bold;
+    margin-bottom:10px;
+
+
+}
+.social-icons a{
+    color:white;
+    margin:0 9px;
+    text-decoration:none;
+    font-size:30px;
+    transition:color 0.3s ease;
+}
+.youtube:hover{
+    color: #f4130b;
+    font-size:50px;
+}
+.linkedin:hover{
+    color: #0077b5;
+    font-size:50px;
+}
+@media(max-width:600px){
+    header h1{
+        font-size:20px;
+    }
+    header p{
+        font-size:20px;
+    }
+    main{
+        padding:20px;
+    }
+    .social-icons a{
+        font-size:18px;
+        margin:0 5px;
+    }
+}
+
+
+.box{
+     width: 550px;
+  height: 200px;
+  border: 1px solid #333;
+  padding: 10px;
+  margin: 30px;
+  overflow: auto; /* Adds scroll if content is too big */
+  box-sizing: border-box;
+    border:#0077b5 solid 2px;
+    background-color: rgb(8, 8, 36);
+    color: white;
+    border-radius: 10%;
+    font-size: 20px;
+   display:block;
+}
+.container{
+    border:2px solid blue;
+    
+}
+.box:hover{
+    color:yellow;
+    font-weight:bold;}
+#i{
+  border-radius: 10px;
+  border: 2px solid #333;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  margin-left: 0px 0px;
+  display: inline;
+  /* Add more styles as needed */
+}

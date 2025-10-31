@@ -1,0 +1,30 @@
+body{
+   display: flex;
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically */
+    min-height: 100vh;         /* Full viewport height */
+    margin: 0;   
+}
+.form-container{
+    flex-direction:column;
+    border:2px solid black;
+    background-color: #e7c7c7;
+    width:400px;
+    height:500px;
+    justify-content: center;   /* Center content vertically inside form */
+    align-items: center; 
+    }
+    .inner{
+        align-content: center;
+    }
+#name{
+    background-color:rgb(196, 241, 246)
+}
+#message{
+    height: 100px;}
+#navbar{
+    width: 100%;
+}
+.gen{
+    display:flex;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+<style>
+    
+   
+</style>
+</head>
+<body>
+  <header>
+    <div class="main-title">
+      <nav>
+      <ul>
+        <li><a href="#home">home</a></li>
+         <li><a href="#home">contact</a></li>
+          <li><a href="#home">about us </a></li>
+          <li><a href="#home">search</a></li>
+           </ul>
+                 
+           </nav>
+          </div>
+
+  </header>
+<main>
+          <div class="container">
+         <div class ="box"> placeat iste non modi earum sapiente, nihil vitae doloremque minima dolorem nam porro corrupti ipsa? Excepturi, incidunt? Officia odio porro nesciunt consequuntur quisquam ratione!
+         Hic, vero voluptatem reprehenderit qui quibusdam dignissimos odit accusantium, ut odio commodi dolorum, est temporibus recusandae beatae aspernatur nemo modi impedit! Accusantium sequi enim impedit soluta repudiandae velit quod unde.
+  <div><img id="i" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=100&q=80" alt="A description" width="200" >
+</div></div>
+         <div class ="box">
+         time now is:
+         <span id="time"></span>
+        </div>
+         <div class ="box">box3</div>
+    </div>
+</main>
+<footer>
+<div class="social-icons">
+    <a class="youtube" href="www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+    <a class="linkedin" href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+</footer>
+<script>
+function displaytime(){
+    time=new Date();
+    console.log(time);
+document.getElementById('time').innerHTML=time;}
+setInterval(displaytime,1000)
+   </script>
+</body>
+</html>
